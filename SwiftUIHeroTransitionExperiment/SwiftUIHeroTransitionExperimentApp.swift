@@ -1,10 +1,3 @@
-//
-//  SwiftUIHeroTransitionExperimentApp.swift
-//  SwiftUIHeroTransitionExperiment
-//
-//  Created by Librecz Gábor on 2024. 12. 14..
-//
-
 import SwiftUI
 
 @main
