@@ -212,6 +212,7 @@ class MatchedGeometryViewController<Content: View>: UIViewController,
     contentHost = UIHostingController(rootView: contentContainer)
     contentHost.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     contentHost.view.frame = view.bounds
+    contentHost.view.backgroundColor = .clear
     addChild(contentHost)
     view.addSubview(contentHost.view)
     contentHost.didMove(toParent: self)
